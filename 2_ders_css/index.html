@@ -5,11 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css learning</title>
-
+<!-- internal css: sadece o sayfanın tamamında -->
+<style>
+    h3{
+        font-size: 25px;
+    }
+</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- inline css  -->
-    <p style="color: red;font-size: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div>1.div</div>
+    <br>
+    <div>
+        <p>2.div</p>
+    </div>
+    <!-- inline css : sadece o satırda çalışır -->
+    <!-- css syntax key:VALUE -->
+    <p style="color: rgb(255, 0, 0);font-size: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h3>item1</h3>
+    <h3>item1</h3>
+    <h3>item1</h3>
+<!-- class = public
+id = private -->
+<p class="cagri"> external css is running</p>
+<p id="cagri_id"> external css is running</p>
+
 </body>
 </html>

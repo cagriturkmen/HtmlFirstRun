@@ -1,0 +1,22 @@
+.cagri{
+    color: blueviolet;
+    font-size: 30px;
+}
+#cagri_id{
+color: burlywood;
+font-size: 2rem!important;
+}
+div{
+    width: 250px;
+    height: 200px;
+    color: darkblue;
+    background-color: darkolivegreen;
+    padding: 100px 25px 35px 45px;
+    margin-top: 12px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+.text{
+    color: green;
+    font-size: 100px;
+}
