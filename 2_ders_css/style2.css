@@ -1,0 +1,16 @@
+#box_sizing{
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    padding: 2%;
+    border: 10px lightcoral solid
+}
+
+#box_sizing:hover{
+height: 250px;
+width: 400px;
+background: black;
+color: lightskyblue;
+transition: 5s all;
+}
